@@ -62,3 +62,46 @@ git status
 git add .
 git status
 git commit
+git status
+git add .
+git commit -m "zad1"
+git push origin mater
+git stastus
+git status
+git init
+git mastergit
+mastergit
+git remote add origin https://github.com/radooslav/.py.git 
+git push -u
+git log
+git push origin mater
+git remote add origin https://github.com/radooslav/.py.git
+git pull origin master
+git push origin mater
+git remote add origin https://github.com/radooslav/.py.git
+clear
+status
+clear
+git status
+git .add
+git add .
+git status
+git init
+git commit -m "test"
+git log
+git commit 
+git push origin mater
+clear
+git status
+git remote rm origin
+git status
+git init
+git status
+git remote add origin https://github.com/radooslav/.py.git
+git status
+git commit
+source katalog/bin/activatie
+git init
+git log
+git pull origin mater
+git commit -m "test"

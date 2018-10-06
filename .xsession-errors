@@ -1,0 +1,74 @@
+Xsession: X session started for login at sob, 6 paź 2018, 12:57:36 CEST
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1002/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/login/.Xauthority
+localuser:login being added to access control list
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1
+OpenGL version: 3.
+dbus-update-activation-environment: setting USER=login
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting HOME=/home/login
+dbus-update-activation-environment: setting DESKTOP_SESSION=lightdm-xsession
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1002/bus
+dbus-update-activation-environment: setting LOGNAME=login
+dbus-update-activation-environment: setting PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session1
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1002
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting LANG=pl_PL.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=lightdm-xsession
+dbus-update-activation-environment: setting XAUTHORITY=/home/login/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/login
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting GDMSESSION=lightdm-xsession
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1002/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/login
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+/usr/bin/x-session-manager: X server already running on display :0
+xfce4-session-Message: SSH authentication agent is already running
+gpg-agent[1824]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:1807): xfce4-session-WARNING **: gpg-agent returned no PID in the variables
+
+(xfce4-session:1807): xfce4-session-WARNING **: xfsm_manager_load_session: Something wrong with /home/login/.cache/sessions/xfce4-session-user1:0, Does it exist? Permissions issue?
+
+(xfwm4:1828): GLib-CRITICAL **: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfsettingsd:1836): GLib-CRITICAL **: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfsettingsd:1836): GLib-GObject-CRITICAL **: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+
+(xfsettingsd:1836): GLib-GObject-CRITICAL **: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+
+(xfwm4:1828): xfwm4-WARNING **: The property '/general/double_click_distance' of type int is not supported
+
+(xfsettingsd:1836): xfsettingsd-WARNING **: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(xfwm4:1828): xfwm4-WARNING **: Error opening /dev/dri/card0: Nie ma takiego pliku ani katalogu
+
+(xfwm4:1828): xfwm4-WARNING **: Another compositing manager is running on screen 0
+
+(xfdesktop:1837): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+** (xfdesktop:1837): WARNING **: Attempt to remove icon 0x561ea6f756b0 from XfdesktopIconView 0x561ea7079200, but it's not in there.
+
+** (xfdesktop:1837): WARNING **: Attempt to remove icon 0x561ea6f75250 from XfdesktopIconView 0x561ea7079200, but it's not in there.
+
+** (xfdesktop:1837): WARNING **: Attempt to remove icon 0x561ea6f75330 from XfdesktopIconView 0x561ea7079200, but it's not in there.
+
+** (xfdesktop:1837): CRITICAL **: xfdesktop_icon_view_add_item: assertion '!g_object_get_data(G_OBJECT(icon), "--xfdesktop-icon-view")' failed
+
+** (xfdesktop:1837): CRITICAL **: xfdesktop_icon_view_add_item: assertion '!g_object_get_data(G_OBJECT(icon), "--xfdesktop-icon-view")' failed
+
+(firefox-esr:2086): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox-esr:2086): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+
+(xfce4-terminal:1921): Gtk-WARNING **: Allocating size to GtkScrollbar 0x55c61dbf2cd0 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
